@@ -29,7 +29,7 @@ async def start(b, m):
             caption="**ʜᴇʟʟᴏ...⚡\n\nɪᴀᴍ ᴀ sɪᴍᴘʟᴇ ᴛᴇʟᴇɢʀᴀᴍ ғɪʟᴇ/ᴠɪᴅᴇᴏ ᴛᴏ ᴘᴇʀᴍᴀɴᴇɴᴛ ʟɪɴᴋ ᴀɴᴅ sᴛʀᴇᴀᴍ ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ.**\n\n**ᴜsᴇ /help ғᴏʀ ᴍᴏʀᴇ ᴅᴇᴛsɪʟs\n\nsᴇɴᴅ ᴍᴇ ᴀɴʏ ᴠɪᴅᴇᴏ / ғɪʟᴇ ᴛᴏ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀᴢ...**",
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton("⚡ UPDATES ⚡", url="https://t.me/MLZ_BOTZ"), InlineKeyboardButton("⚡ SUPPORT ⚡", url="https://t.me/beta_support")],
+                    [InlineKeyboardButton("⚡ UPDATES ⚡", url="https://t.me/MLZ_BOTZ"), InlineKeyboardButton("⚡ SUPPORT ⚡", url="https://t.me/MLZ_BOTZ_SUPPORT")],
                     [InlineKeyboardButton("OWNER", url="https://t.me/TGxIRFAN"), InlineKeyboardButton("💠 DEVELOPER", url="https://github.com/Adarsh-Goel")],
                     [InlineKeyboardButton("💌 SUBSCRIBE 💌", url="https://youtube.com/@mlzbotz")]
                 ]
@@ -85,7 +85,7 @@ async def help_handler(bot, message):
         
         reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton("⚡ UPDATES ⚡", url="https://t.me/MLZ_BOTZ"), InlineKeyboardButton("⚡ SUPPORT ⚡", url="https://t.me/beta_support")],
+                    [InlineKeyboardButton("⚡ UPDATES ⚡", url="https://t.me/MLZ_BOTZ"), InlineKeyboardButton("⚡ SUPPORT ⚡", url="https://t.me/MLZ_BOTZ_SUPPORT")],
                     [InlineKeyboardButton("OWNER", url="https://t.me/TGxIRFAN"), InlineKeyboardButton("💠 DEVELOPER", url="https://github.com/Adarsh-Goel")],
                     [InlineKeyboardButton("💌 SUBSCRIBE 💌", url="https://youtube.com/@mlzbotz")]
                 ]
@@ -108,19 +108,19 @@ async def about_handler(bot, message):
 <b>╭━━━━━━━〔ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ〕</b>
 ┃
 ┣⪼<b>ʙᴏᴛ ɴᴀᴍᴇ : ғɪʟᴇ ᴛᴏ ʟɪɴᴋ
-┣⪼<b>ᴜᴘᴅᴀᴛᴇᴢ : <a href='https://t.me/MLZ_BOTZ'>MLZ BOTZ</a></b>
-┣⪼<b>sᴜᴘᴘᴏʀᴛ : <a href='https://t.me/MLZ_BOTZ_SUPPORT'>MLZ BOTZ SUPPORT</a></b>
+┣⪼<b>ᴜᴘᴅᴀᴛᴇᴢ : <a href='https://t.me/MLZ_BOTZ'>𝙼𝙻𝚉 𝙱𝙾𝚃𝚉</a></b>
+┣⪼<b>sᴜᴘᴘᴏʀᴛ : <a href='https://t.me/MLZ_BOTZ_SUPPORT'>𝙼𝙻𝚉 𝙱𝙾𝚃𝚉 𝚂𝚄𝙿𝙿𝙾𝚁𝚃</a></b>
 ┣⪼<b>sᴇʀᴠᴇʀ : ʜᴇʀᴜᴋᴏ</b>
 ┣⪼<b>ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ</b>
 ┣⪼<b>ʟᴀɴɢᴜᴀɢᴇ: ᴘʏᴛʜᴏɴ 3</b>
-┣⪼<b>ʏᴏᴜᴛᴜʙᴇ : <a href='https://youtube.com/@mlzbotz'>MLZ BOTZ</a></b>
+┣⪼<b>ʏᴏᴜᴛᴜʙᴇ : <a href='https://youtube.com/@mlzbotz'>𝙼𝙻𝚉 𝙱𝙾𝚃𝚉</a></b>
 ┃
 <b>╰━━━━━━━〔ᴘʟᴇᴀsʀ sᴜᴘᴘᴏʀᴛ〕</b>""",
   
         
         reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton("⚡ UPDATES ⚡", url="https://t.me/MLZ_BOTZ"), InlineKeyboardButton("⚡ SUPPORT ⚡", url="https://t.me/beta_support")],
+                    [InlineKeyboardButton("⚡ UPDATES ⚡", url="https://t.me/MLZ_BOTZ"), InlineKeyboardButton("⚡ SUPPORT ⚡", url="https://t.me/MLZ_BOTZ_SUPPORT")],
                     [InlineKeyboardButton("OWNER", url="https://t.me/TGxIRFAN"), InlineKeyboardButton("💠 DEVELOPER", url="https://github.com/Adarsh-Goel")],
                     [InlineKeyboardButton("💌 SUBSCRIBE 💌", url="https://youtube.com/@mlzbotz")]
                 ]
