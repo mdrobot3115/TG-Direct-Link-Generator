@@ -3,7 +3,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram import filters
 import time
 import shutil, psutil
-from utils.py import *
+from utils_bot import *
 from Adarsh import StartTime
 
 
