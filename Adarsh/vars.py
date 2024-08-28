@@ -9,20 +9,20 @@ load_dotenv()
 
 class Var(object):
     MULTI_CLIENT = False
-    API_ID = int(getenv('API_ID', '24314944'))
-    API_HASH = str(getenv('API_HASH', '608c07ba57d9130d9974c9b3639ec570'))
-    BOT_TOKEN = str(getenv('BOT_TOKEN', '5983862950:AAEHmjYDm1GhEtalyl9OGQUwxal4xmnHXxE'))
+    API_ID = int(getenv('API_ID', '9844066'))
+    API_HASH = str(getenv('API_HASH', '0d3f74056f1e60388d3317548799ee17'))
+    BOT_TOKEN = str(getenv('BOT_TOKEN', '5358931750:AAG7tgS-t5t22_pWPwSqb8gDRoAIJyZ0Rhc'))
     name = str(getenv('name', 'filetolinkbot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
-    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1001944172464'))
+    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1001761935067'))
     PORT = int(getenv('PORT', 8080))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
     PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
-    OWNER_ID = set(int(x) for x in os.environ.get("OWNER_ID", "6264350806").split())  
+    OWNER_ID = set(int(x) for x in os.environ.get("OWNER_ID", "1770455672").split())  
     NO_PORT = bool(getenv('NO_PORT', False))
     APP_NAME = str(getenv('APP_NAME'))
-    OWNER_USERNAME = str(getenv('OWNER_USERNAME', 'RDx_47c'))
+    OWNER_USERNAME = str(getenv('OWNER_USERNAME', 'Unit550'))
     if 'DYNO' in environ:
         ON_HEROKU = True
         APP_NAME = str(getenv('APP_NAME'))
@@ -35,6 +35,6 @@ class Var(object):
         URL = "https://{}/".format(FQDN)
     else:
         URL = "http://{}/".format(FQDN)
-    DATABASE_URL = str(getenv('DATABASE_URL', 'mongodb+srv://Filestreambot:Filestreambot@cluster0.tct3qrd.mongodb.net/?retryWrites=true&w=majority'))
+    DATABASE_URL = str(getenv('DATABASE_URL', 'mongodb+srv://rchand:rchand90@cluster0.xxpp9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'))
     UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', None))
-    BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1001944172464")).split())) 
+    BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1001761935067")).split())) 
